@@ -24,6 +24,7 @@ Follow these steps to launch the search engine web application
 launch the search engine UI web application.
 
 The screen shot of the search engine UI when execute query of "REST": </br>
+
 ![REST query screenShot](SearchEngineApp/REST_ScreenShot.png)
 
 
