@@ -1,0 +1,10 @@
+body {
+  padding-top: 50px;
+}
+.top-pad {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.split-para      { display:block;margin:10px;}
+.split-para span { display:block;float:right;width:50%;margin-left:10px;}

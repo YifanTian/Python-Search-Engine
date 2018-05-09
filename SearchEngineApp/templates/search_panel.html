@@ -1,0 +1,43 @@
+<!-- <!doctype html>
+<title>Search Engine</title>
+{% if Google_results_html %}
+  <h1>Google Search results: {{ Google_results_html }}!</h1>
+{% else %}
+  <h1>No query!</h1>
+{% endif %} -->
+
+{% extends 'base.html' %}
+ 
+{% block container %}
+
+<div class="top-pad">
+  <div id="content">
+    <form method="get" action="{{ url_for('query') }}">
+      <h1><label for="query">Please enter query:</label> </h1>
+        <input type="text" name="query" placeholder="Crista Lopes"/><br />
+        <h2><input type="submit" /> </h2>
+    </form>
+
+</div>
+
+</div>
+
+<h2>Query: {{ query }}</h2>
+<h2>Our Engiene results: </h2>
+<ol type="1">
+  <li><a href="{{ Search_results[0] }}">{{ Search_results[0] }}</a></li>
+  <li><a href="{{ Search_results[1] }}">{{ Search_results[1] }}</a></li>
+  <li><a href="{{ Search_results[2] }}">{{ Search_results[2] }}</a></li>
+  <li><a href="{{ Search_results[3] }}">{{ Search_results[3] }}</a></li>
+  <li><a href="{{ Search_results[4] }}">{{ Search_results[4] }}</a></li>
+</ol>
+<h2>Google Search results: </h2>
+<ol type="1">
+  <li><a href="{{ Google_results_html[0] }}">{{ Google_results_html[0] }}</a></li>
+  <li><a href="{{ Google_results_html[1] }}">{{ Google_results_html[1] }}</a></li>
+  <li><a href="{{ Google_results_html[2] }}">{{ Google_results_html[2] }}</a></li>
+  <li><a href="{{ Google_results_html[3] }}">{{ Google_results_html[3] }}</a></li>
+  <li><a href="{{ Google_results_html[4] }}">{{ Google_results_html[4] }}</a></li>
+</ol>
+
+{% endblock %}
