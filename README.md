@@ -23,7 +23,7 @@ Follow these steps to launch the search engine web application
 2. sh launch.sh
 launch the search engine UI web application.
 
-The screen shot of the UI:
-![REST ScreenShot](SearchEngineApp/REST ScreenShot)
+The screen shot of the search engine UI when execute query of "REST":
+![REST query screenShot](SearchEngineApp/REST_ScreenShot.png)
 
 
