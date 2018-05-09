@@ -1,15 +1,15 @@
 # SearchEngine
 A Python basic Search Engine with building index using TF-IDF and NDCG, including Flask web app. UCI Information Retrieval Project. 
 
-1. **Build index**
+1. **Build index** </br>
 python build_index.py  
 
-2. **This search engine**
-run search.py to search our results and compare
+2. **This search engine** </br>
+run search.py to search our results and compare </br>
 python search.py
 
-3. **Google search**
-run python google_search.py to get google results
+3. **Google search** </br>
+run python google_search.py to get google results </br>
 python google_search.py
 
 ---
